@@ -15,6 +15,5 @@ jobs:
           record: true
         env:
           # pass the Cypress Cloud record key as an environment variable
-          CYPRESS_RECORD_KEY: '${{ secrets.CYPRESS_RECORD_KEY }}'
-          PROJECT_ID: '${{ secrets.PROJECT_ID }}'
-          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+          CYPRESS_RECORD_KEY: '${{ cypress.config.json }}'
+          PROJECT_ID: '${{ cypress.config.json }}'
