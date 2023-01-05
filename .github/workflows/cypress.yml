@@ -11,3 +11,5 @@ jobs:
         with:
           runTests: true
           browser: chrome
+          record: true
+          parallel: true
