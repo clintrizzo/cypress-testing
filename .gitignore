@@ -9,13 +9,17 @@ cypress/videos
 cypress/videos/*
 cypress/screenshots
 cypress/screenshots/*
-cypress.config.js
+cypress.config.js/{projectid}
 # cypress/integration/_generated/*
 # cypress/data/migration/generated/*.csv
 # cypress/fixtures/example.json
 # cypress/build/*
 
 
+#add to cypress config file to run automation
+#projectId: "s84g4q",
+#record_key: '7155a86a-977c-4f93-8c3f-359c724988b8',
+#record: true, 
 
 #to run for ci automation
 #npx cypress run --record --key 7155a86a-977c-4f93-8c3f-359c724988b8
