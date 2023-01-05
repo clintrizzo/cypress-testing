@@ -4,12 +4,9 @@
   "description": "Testing practice with cypress",
   "main": "index.js",
   "scripts": {
-    "start": "PORT=3030 react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "start": "npm start",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
   },
   "repository": {
     "type": "git",
@@ -20,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/clintrizzo/cypress-testing/issues"
   },
-  "homepage": "https://github.com/clintrizzo/cypress-testing#readme"
+  "homepage": "https://github.com/clintrizzo/cypress-testing#readme",
+  "devDependencies": {
+    "cypress": "^12.3.0"
+  }
 }

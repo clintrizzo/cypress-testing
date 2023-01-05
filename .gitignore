@@ -4,6 +4,7 @@
 # cypress.env.json
 # cypress.meta.json
 # cypress/logs/
+node_modules
 cypress/videos
 cypress/videos/*
 cypress/screenshots
