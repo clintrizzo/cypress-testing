@@ -9,6 +9,7 @@ cypress/videos
 cypress/videos/*
 cypress/screenshots
 cypress/screenshots/*
+cypress.config.js
 # cypress/integration/_generated/*
 # cypress/data/migration/generated/*.csv
 # cypress/fixtures/example.json
