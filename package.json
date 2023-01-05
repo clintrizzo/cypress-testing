@@ -6,7 +6,9 @@
   "scripts": {
     "start": "npm start",
     "cy:open": "cypress open",
-    "cy:run": "cypress run"
+    "cy:run": "cypress run",
+    "test": "start-server-and-test start cy:run"
+
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   },
   "homepage": "https://github.com/clintrizzo/cypress-testing#readme",
   "devDependencies": {
-    "cypress": "^12.3.0"
+    "cypress": "^12.3.0",
+    "start-server-and-test": "^1.15.2"
   }
 }

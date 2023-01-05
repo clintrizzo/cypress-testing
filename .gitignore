@@ -13,3 +13,8 @@ cypress/screenshots/*
 # cypress/data/migration/generated/*.csv
 # cypress/fixtures/example.json
 # cypress/build/*
+
+
+
+#to run for ci automation
+#npx cypress run --record --key 590319bd-f7c1-40af-ac61-a9940ae8dec0

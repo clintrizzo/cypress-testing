@@ -3,6 +3,7 @@ on: [push]
 jobs:
   cypress-run:
     runs-on: ubuntu-20.04
+    projectId: "25y4om",
     # let's make sure our tests pass on Chrome browser
     name: E2E on Chrome
     steps:
